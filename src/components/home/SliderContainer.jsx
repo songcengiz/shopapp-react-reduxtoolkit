@@ -26,7 +26,7 @@ const SliderContainer = () => {
               Detail
             </div>
           </div>
-          <img src="../././img/user-1.jpg" alt="Book" />
+          <img src="" alt="Book" />
         </div>
         <div className="!flex items-center bg-gray-100 p-6">
           <div>
@@ -40,7 +40,7 @@ const SliderContainer = () => {
               Detail
             </div>
           </div>
-          <img src="../././img/user-3.jpg" alt="Book" />
+          <img src="" alt="Book" />
         </div>
       </Slider>
     </div>
