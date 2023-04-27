@@ -1,7 +1,7 @@
 {
-  "homepage": "https://songcengiz.github.io/shopapp-react-reduxtoolkit/",
-  "name": "reduxdemo",
+  "name": "reduxtoolkit",
   "version": "0.1.0",
+  "homepage": "https://songcengiz.github.io/shopapp-react-reduxtoolkit",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
@@ -29,11 +29,11 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:server": "npx json-server --watch api/db.json"
   },
   "eslintConfig": {
     "extends": [
