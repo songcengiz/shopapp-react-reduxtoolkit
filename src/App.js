@@ -17,6 +17,7 @@ function App() {
       <PageContainer>
         <BrowserRouter>
           <Navbar />
+        
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/products/:id" element={<ProductDetail />} />

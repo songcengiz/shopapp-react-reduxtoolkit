@@ -26,7 +26,7 @@ const SliderContainer = () => {
               Detail
             </div>
           </div>
-          <img src="" alt="Book" />
+          <img className="w-[200px] h-[200px] m-auto" src="https://img.freepik.com/free-vector/online-education-flat_1284-25220.jpg" alt="" />
         </div>
         <div className="!flex items-center bg-gray-100 p-6">
           <div>
@@ -40,7 +40,7 @@ const SliderContainer = () => {
               Detail
             </div>
           </div>
-          <img src="" alt="Book" />
+          <img className="w-[200px] h-[200px] m-auto" src="https://img.freepik.com/free-vector/online-education-isometric_1284-25213.jpg" alt="" />
         </div>
       </Slider>
     </div>

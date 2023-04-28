@@ -33,6 +33,16 @@ const Products = ({ category, sort }) => {
   };
   return (
     <div>
+       <ReactPaginate
+        className="paginate"
+        breakLabel="..."
+        nextLabel=">"
+        onPageChange={handlePageClick}
+        pageRangeDisplayed={5}
+        pageCount={pageCount}
+        previousLabel="<"
+        renderOnZeroPageCount={null}
+      />
       {productsStatus == "LOADING" ? (
         <Loading />
       ) : (
@@ -59,16 +69,7 @@ const Products = ({ category, sort }) => {
               ))}
         </div>
       )}
-      <ReactPaginate
-        className="paginate"
-        breakLabel="..."
-        nextLabel=">"
-        onPageChange={handlePageClick}
-        pageRangeDisplayed={5}
-        pageCount={pageCount}
-        previousLabel="<"
-        renderOnZeroPageCount={null}
-      />
+     
     </div>
   );
 };
