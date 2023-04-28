@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/shopapp-react-reduxtoolkit/static/css/main.44f4db43.css",
-    "main.js": "/shopapp-react-reduxtoolkit/static/js/main.cb801333.js",
+    "main.css": "/shopapp-react-reduxtoolkit/static/css/main.912bd1bf.css",
+    "main.js": "/shopapp-react-reduxtoolkit/static/js/main.0173a6a8.js",
     "static/media/slick.svg": "/shopapp-react-reduxtoolkit/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/shopapp-react-reduxtoolkit/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/shopapp-react-reduxtoolkit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/shopapp-react-reduxtoolkit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/shopapp-react-reduxtoolkit/index.html",
-    "main.44f4db43.css.map": "/shopapp-react-reduxtoolkit/static/css/main.44f4db43.css.map",
-    "main.cb801333.js.map": "/shopapp-react-reduxtoolkit/static/js/main.cb801333.js.map"
+    "main.912bd1bf.css.map": "/shopapp-react-reduxtoolkit/static/css/main.912bd1bf.css.map",
+    "main.0173a6a8.js.map": "/shopapp-react-reduxtoolkit/static/js/main.0173a6a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.44f4db43.css",
-    "static/js/main.cb801333.js"
+    "static/css/main.912bd1bf.css",
+    "static/js/main.0173a6a8.js"
   ]
 }
