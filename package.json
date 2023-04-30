@@ -34,7 +34,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "npx json-server --watch api/db.json --port 3001",
-    "tailwind:build": "tailwind build src/styles/tailwind.css -o src/styles/app.css"
+    "tailwind:build": "tailwind build src/index.css -o src/index.css"
   },
   "eslintConfig": {
     "extends": [
