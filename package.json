@@ -29,11 +29,12 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run tailwind:build && react-scripts start",
+    "build": "npm run tailwind:build && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start:server": "npx json-server --watch api/db.json"
+    "server": "npx json-server --watch api/db.json --port 3001",
+    "tailwind:build": "tailwind build src/styles/tailwind.css -o src/styles/app.css"
   },
   "eslintConfig": {
     "extends": [
