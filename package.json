@@ -1,7 +1,7 @@
 {
   "name": "reduxtoolkit",
   "version": "0.1.0",
-  "homepage": "https://songcengiz.github.io/shopapp-react-reduxtoolkit",
+  "homepage": "https://songcengiz.github.io",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
@@ -33,7 +33,7 @@
     "build": "npm run tailwind:build && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "npx json-server --watch api/db.json --port 3001",
+    "server": "npx json-server --watch src/api/db.json --port 3001",
     "tailwind:build": "tailwind build src/index.css -o src/index.css"
   },
   "eslintConfig": {
